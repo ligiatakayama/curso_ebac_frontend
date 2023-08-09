@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    display: block;
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+form {
+    margin-top: 40px;
+}
+
+input, textarea, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    text-transform: uppercase;
+    color: blanchedalmond;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(94, 94, 163);
+}
+
+.sucess-message {
+    background-color: darkgreen;
+    padding: 16px;
+    color: blanchedalmond;
+    display: none;
+}
+
+.error-message {
+    font-size: 12px;
+    padding: 8px;
+    background-color: firebrick;
+    color: blanchedalmond;
+    margin-bottom: 8px;
+    display: none;
+}
