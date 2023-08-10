@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1, h2 {
+    margin: 20px;
+    color: rgb(57, 57, 165);
 }
 
 body {
@@ -10,8 +15,8 @@ body {
 }
 
 .container {
-    margin: 80px auto;
-    max-width: 640px;
+    margin:0 auto;
+    max-width: 400px;
     width: 100%;
 }
 
@@ -28,30 +33,31 @@ input, textarea, button {
 }
 
 button {
-    background-color: blue;
+    background-color: rgb(80, 80, 219);
     border: none;
     text-transform: uppercase;
     color: blanchedalmond;
     font-weight: bold;
     font-size: 18px;
+    font-style: italic;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: rgb(94, 94, 163);
+    background-color: rgb(68, 68, 113);
 }
 
-.sucess-message {
+.success-message {
     background-color: darkgreen;
     padding: 16px;
-    color: blanchedalmond;
+    color:blanchedalmond;
     display: none;
 }
 
 .error-message {
     font-size: 12px;
     padding: 8px;
-    background-color: firebrick;
+    background-color: crimson;
     color: blanchedalmond;
     margin-bottom: 8px;
     display: none;
