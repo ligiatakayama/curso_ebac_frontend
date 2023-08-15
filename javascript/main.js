@@ -17,7 +17,7 @@ form.addEventListener("submit", function(e){
     formValid = numbervalid(ValA, ValB);
 
     if (formValid) { 
-        document.querySelector(".error.message").style.display = "none";
+        document.querySelector(".error-message").style.display = "none";
         containermessagesucess.innerHTML = messagesucess; 
         containermessagesucess.style.display = "block";
         document.querySelector(".error-message").style.display = "none";
