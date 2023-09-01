@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Darumadrop+One&family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <header>
+        <img src="./imagens/robot-1470108_1280.png" alt="robozinho">
+        <h1>Lista de Tarefas</h1>
+        <button type="button">Inserir tarefa</button>
+    </header>
+    <form>
+        <input type="text" id="nova-tarefa" required placeholder="Não posso esquecer de..."/>
+        <button type="submit">Adicionar +</button>
+        <button type="reset" id="botao-cancelar">Cancelar</button>
+    </form>
+    <div class="container">
+        <h2>A f a z e r e s</h2>
+        <ul>
+            <li>Entregar itens solicitados na escola das criancas</li>
+            <li>Fazer faxinha, aspirar, passar pano, lavar roupas e estender</li>
+        </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
