@@ -11,9 +11,13 @@ $(document).ready(function() {
         e.preventDefault();
         const novaTarefa = $('#nova-tarefa').val();
         const novoItem = $('<li></li>');
-        $(`<ul="${novaTarefa}" />`).appendTo(novoItem);
-        $(novoItem).appendTo('ul');
+        novoItem.text(novaTarefa);
+        $('ul').appendTo(novoItem);
         $('#nova-tarefa').val('');
     })
+
+    $('ul').on('click','li',function() {
+        $(this).toggleClass('riscado');
+    });
 })
 
