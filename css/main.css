@@ -5,7 +5,7 @@
 }
 
 body > header {
-    background-color: #2f3640;
+    background-color: #8FB9A8;
     padding: 16px 0;
     color: #f5f6fa;
 }
@@ -40,8 +40,9 @@ header li a {
 }
 
 .articles article img {
-    /* height: 180px; */
-    width: 100%; 
+    max-height: 220px;
+    overflow-y: hidden;
+    width: 100%;
 }
 
 .articles article {
@@ -90,33 +91,33 @@ section h2 {
 }
 
 #sports {
-    background-color: rgba(0, 255, 0, 0.1);
+    background-color: #FEFAD4;
 }
 
 #sports .articles article a {
-    background-color: #009432;
+    background-color: #e0cd1f;
 }
 
 #economy {
-    background-color: #f8f59f;
+    background-color: #FCD0BA;
 }
 
 #economy .articles article a {
-    background-color: #ff9f1a;
+    background-color: #d37140;
 }
 
 #entertainment {
-    background-color: #ecd5e3;
+    background-color: #F1828D;
 }
 
 #entertainment .articles article a {
-    background-color: #bf36ff;
+    background-color:#f8a1aa;
 }
 
 #technology {
-    background-color: #d2cfc8;
+    background-color: #765D69;
 }
 
 #technology .articles article a {
-    background-color: #3d4a81;
+    background-color:  #c9a2b5;
 }
