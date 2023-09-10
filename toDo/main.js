@@ -12,7 +12,7 @@ $(document).ready(function() {
         const novaTarefa = $('#nova-tarefa').val();
         const novoItem = $('<li></li>');
         novoItem.text(novaTarefa);
-        $('ul').appendTo(novoItem);
+        $('ul').append(novoItem);
         $('#nova-tarefa').val('');
     })
 

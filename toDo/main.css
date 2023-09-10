@@ -31,7 +31,6 @@ header button {
 
 form {
     padding: 20px 0;
-    display: flexbox;
     text-align: center;
     display: none;
 }
